@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>SinergiaNews - Especial VII</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /*TESTES EM 600 PX*/
+        
+        .negrito {
+            font-weight: bold;
+        }
+        
+        .centralizar {
+            text-align: center;
+        }
+        
+        .listTitle {
+            font-weight: bold;
+            font-size: 11px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 25px;
+        }
+        
+        .letraMaior {
+            font-size: 25px;
+        }
+        
+        .red {
+            color: rgb(153, 0, 0);
+        }
+        
+        ul .red {
+            color: rgb(204, 0, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 11px;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        hr {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .final {
+            font-size: 14px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .alinhadoEsq {
+            text-align: left;
+        }
+        
+        .alinhadoDir {
+            text-align: right;
+        }
+        
+        .container {
+            width: 75%;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-style: italic;
+        }
+        
+        h3 {
+            margin-bottom: 0px;
+        }
+        
+        h4 {
+            margin-top: 0px;
+        }
+        
+        header h1 {
+            font-size: 30px;
+            font-style: italic;
+        }
+        
+        header p {
+            /*border: 1px solid black;*/
+            color: rgb(153, 153, 153);
+            font-size: 10px;
+        }
+        
+        .link {
+            text-align: center;
+            font-size: 8px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .headerNum {
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .imagem-center {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .imagem-lado {
+            margin-top: 60px;
+        }
+        
+        .subtitle {
+            font-size: 11px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .icons {
+            display: block;
+            text-align: center;
+        }
+        
+        .div-logo .imagem-center {
+            /*Defini um tamanho máximo para o logo já que somente ele tem tamanho fixo*/
+            max-width: 96px;
+            max-height: 82px;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        main {
+            padding: 0px;
+            margin-top: 5px;
+            text-align: justify;
+        }
+        
+        .topicos p {
+            margin-top: 3px;
+            margin-bottom: 2px;
+        }
+        
+        footer {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            background-color: rgb(238, 238, 238);
+        }
+        /*acrescentado aqui*/
+        
+        body {
+            background-color: rgb(197, 197, 197);
+            /*cor de fundo*/
+            margin: 0;
+            /*para tirar o espaço acima e abaixo conforme o modelo anterior*/
+        }
+        
+        @media only screen and (min-width:601px) {
+            .flex-container {
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            main {
+                flex: 80%;
+            }
+            aside {
+                flex: 100%;
+            }
+        }
+        
+        @media only screen and (min-width:993px) {
+            .flex-container {
+                align-items: flex-start;
+            }
+            main {
+                flex: 60%;
+                padding: 5px;
+                border-right: 2px solid rgb(153, 153, 153);
+                margin-top: 0px;
+                /*Adicionei a borda ao main e não ao asside, para ficar mais semelhante ao anterior*/
+            }
+            aside {
+                flex: 30%;
+                padding: 15px;
+                padding-right: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p class="link">CASO NÃO ESTEJA VISUALIZANDO CORRETAMENTE ESSA MENSAGEM, <a href="http://sinergiaservice.com/multimidia_pt/2020/06/a-saude-da-sua-agua/">ACESSE ESTE LINK</a></p>
+            <h1>A SAÚDE DA SUA ÁGUA!</h1>
+            <hr />
+            <p class="headerNum"> SINERGIA NEWS - EDIÇÃO ESPECIAL VII </p>
+            <hr />
+        </header>
+
+        <div class="flex-container">
+            <main>
+                <section>
+                    <h2 class="letraMaior"><span class="red">Saneamento Básico:</span></h2>
+                    <h2>Fundamental para a boa qualidade de vida de uma população.</h2>
+
+                    <img src="https://docs.google.com/uc?id=1nCIpq4DsJg4gCcSlw5i1udOo6vz6CK8R" alt="Splash de água sendo jogada para cima quando mais água cai em uma piscina" width="339" height="226" class="imagem-center" />
+
+                    <p>
+                        O acesso à água e ao saneamento ainda está longe de ser um direito universal, visto que, segundo a ONU, bilhões de pessoas no mundo ainda não têm acesso à água potável de qualidade nem a esgotamento sanitário seguro.
+                    </p>
+
+                    <p>
+                        Progressos estão sendo obtidos através dos esforços constantes em alcançar o acesso universal a água e saneamento.
+                    </p>
+
+                    <p>
+                        Nas Estações de Tratamento, públicas ou privadas, técnicas apropriadas são continuamente ministradas afim de reduzir poluentes e, assim, atingir o ponto em que, nem a água nem o esgotamente sanitário apresentem riscos para a Saúde Humana ou para o Meio
+                        Ambiente.
+                    </p>
+
+                    <p>
+                        Várias são as etapas de tratamento e análises laboratóriais, até que atestem condições adequadas para o consumo humano ou liberação ao Meio Ambiente.
+                    </p>
+
+                    <p>
+                        <span class="negrito red">Seu esforço por água abaixo...</span>
+                    </p>
+
+                    <p>
+                        <span class="negrito">Se o revestimento impermeabilizante utilizado</span> para proteger os tanques e estruturas de concreto existentes ​​nessas estações de tratamento, seja de esgoto, seja de água potável ou residual, <span class="negrito">for um produto com base asfáltica, elementos tóxicos ou cancerígenos,
+                        todo o trabalho realizado, técnicas empregadas, purificação... seguirão pelo ralo.</span>
+                    </p>
+
+                    <p>
+                        <span class="negrito red">E isso também serve para o seu reservatório, caixa d'água, cisterna...</span>
+                    </p>
+
+                    <p>
+                        Esteja atento!
+                    </p>
+                </section>
+
+                <section class="topicos">
+                    <hr />
+                    <h2 class="centralizar">Garantia de Solução!</h2>
+
+                    <p class="red negrito">Excelência do PU VEGETAL sobre os demais sistemas impermeabilizantes:</p><br />
+                    <p>- <span class="negrito">Atóxico, natural, inodoro</span>, não agride o Meio Ambiente nem depõe contra a Saúde Humana.</p><br />
+                    <p>- <span class="negrito">Ecologicamente correto</span> - obtido de recursos naturais e renováveis (óleo de mamona); 100% sólidos, completamente isento de metais pesados, solventes ou voláteis.</p><br />
+                    <p>- <span class="negrito">Perfeitamente estanque e altamente resistente</span> à corrosão, abrasão, intempéries e agentes agressivos.</p><br />
+                    <p>- <span class="negrito">Aplicado a frio</span>, com rolos, rodos e pincéis.</p><br />
+                    <p>- <span class="negrito">Dispensa proteção mecânica</span>, permite inspeção visual e tráfego de pessoas.</p><br />
+                    <p>- <span class="negrito">Pouco custo, muitos benefícios</span>: singularmente competitivo frente aos revestimentos similares!</p><br />
+                    <p>- <span class="negrito">Composto de Resinas flexíveis ou rígidas</span>, capazes de resistir à pressões hidrostáticas positivas ou negativas, atendendo às mais diversas situações.</p><br />
+                    <p>- Cumpre plenamente a NBR 12170, garantindo <span class="negrito">completa segurança também para uso em Reservatórios de Água Potável.</span> </p><br />
+                    <p> Pense nisso!</p>
+
+                    <hr />
+                </section>
+
+            </main>
+
+            <aside>
+                <div class="div-logo">
+                    <img src="https://drive.google.com/uc?id=1Q3dWExdKQaYj2d-SNMYWcQviuZm9MLrL" alt="Logo da empresa Sinergia com os dizeres: Ecologicamente correto e PU Vegetal" width="96" height="82" class="imagem-center" />
+                </div>
+
+                <p><span class="listTitle">NESTA EDIÇÃO</span></p>
+                <ul>
+                    <li class="red">SANEAMENTO: DIREITO UNIVERSAL</li>
+                    <li class="red">GARANTIA DE SOLUÇÃO</li>
+                    <li class="red">SIMPLICIDADE E EFICIÊNCIA</li>
+                    <li class="red">CONTATE-NOS</li>
+                </ul>
+
+                <hr />
+
+                <article>
+                    <h3 class="red">
+                        PU Vegetal Sinergia:
+                    </h3>
+                    <h4>
+                        Simplicidade e eficiência!
+                    </h4>
+
+                    <p class="final">
+                        <span class="red">De fácil aplicação</span> <span class="negrito">e excelente aderência ao substrato,</span> o <span class="bold">PU Vegetal</span> é aplicável em qualquer superfície porosa, com rodos, pincéis ou rolos de pintura.
+                    </p>
+
+                    <p>
+                        <span class="red negrito subtitle">FORNECEMOS TODO O SUPORTE TÉCNICO NECESSÁRIO</span>
+                    </p>
+
+                    <p class="final">
+                        Além de mantermos equipes de plantão, inclusive em finais de semana e feriados para dirimir possíveis dúvidas.
+                    </p>
+                    <hr />
+
+                    <div class="icons">
+                        <p class="red negrito subtitle">
+                            CONTATE-NOS PARA MAIS INFORMAÇÕES
+                        </p>
+
+                        <a href="http://sinergiaservice.com.br"><img src="https://drive.google.com/uc?id=1_ED5gDEEsToVv0chFAC042Tsj61AvcOI" title="Vá para nosso Site!" alt="Ícone casa levando para o site"></a>
+                        <a href="tel:+5501633243000"><img src="https://drive.google.com/uc?id=1_LqtJQeveYpw9MYR0leh9HarK8lotPmL" title="Ligue para nós!" alt="Ícone fone levando para o número"></a>
+                        <a href="mailto:sinergia@sinergiaservice.com.br"><img src="https://drive.google.com/uc?id=1cQZmOQFkuuhqJ2Rom2bPCSTPS6vGg-0v" title="Mande-nos um email!" alt="Ícone carta levando para o email"></a>
+                        <a href="http://www.facebook.com/puvegetal"><img src="https://drive.google.com/uc?id=1cBs3B6Wo42rysTLCSrz3is_Y0oRocZMn" title="Siga nosso Facebook!" alt="Ícone facebook levando para nossa página"></a>
+                        <a href="http://linkd.in/1xrBhV9"><img src="https://drive.google.com/uc?id=1r2VDUlCHOqcKJrZX9c_hxtqznDxhyOQu" title="Nos encontre no LinkedIn!" alt="Ícone linkedIn levando para nossa página"></a>
+
+                        <p class="red negrito subtitle">
+                            OU FAÇA-NOS UMA VISITA
+                        </p>
+                        <a href="http://bit.ly/SinergiaService"><img src="https://drive.google.com/uc?id=1IhK_FdAFs7z9EZMqKdaMImLSxi5WmCSh" title="Venha fazer uma visita!"></a>
+                    </div>
+                    <p class="final">
+                        Teremos imenso prazer em atendê-los. <br />
+                    </p>
+                    <p class="final">
+                        Gratos pela atenção, <br />
+                    </p>
+                    <p class="final alinhadoDir">
+                        <span class="negrito">Equipe Sinergia.</span>
+                    </p>
+
+                    <hr />
+
+                </article>
+
+                <img src="https://docs.google.com/uc?id=1n8QG-FGZEmtPOBqjueoLbrgGmwdTeDJD" alt="Mãos recebem e amparam a água que brota de um cano" width="310" height="395" class="imagem-center imagem-lado" />
+            </aside>
+        </div>
+
+        <hr />
+        <footer>
+            <p>
+                <a href="www.sinergiaservice.com.br">Grupo Sinergia - </a>
+                <a href="tel:+5501633243000">(16)3324-3000</a> <br />
+                <a href="http://bit.ly/SinergiaService">Rua Nove de Julho, 2848 - Vila José Bonifácio - Araraquara - SP - 14802-300</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
